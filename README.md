@@ -1,6 +1,6 @@
 ### 📂 Proje İçeriği
 * [Arduino Kodlarını İncele (sulama.ino)](sulama.ino)
-* [Sistem Çalışma Videosu (YouTube/Drive)](https://drive.google.com/file/d/1iGchyq1bho7j1GyjtyOFza2EJ55QMSk7/view?usp=sharing)
+* [Sistem Çalışma Videosu (Drive)](https://drive.google.com/file/d/1iGchyq1bho7j1GyjtyOFza2EJ55QMSk7/view?usp=sharing)
 ## 💧 Otonom Akıllı Sulama Sistemi
 
 Bu proje, tarımda ve ev bitkilerinde su israfını önlemek ve bitki sağlığını korumak amacıyla geliştirilmiş **akıllı bir otomasyon sistemidir.** ### 🚀 Projenin Amacı
@@ -18,4 +18,4 @@ Geleneksel sulama yöntemlerinde bitkiler ya çok fazla sulanarak çürümekte y
 * **Tam Otomatik:** İnsan müdahalesine gerek duymadan 7/24 çalışabilir.
 
 ---
-*Bu proje [2024/2025] Bilim Şenliği kapsamında Ekin Özdemir, Nisanur Tangör, Ahmet Deniz Doğan tarafından geliştirilmiştir.*
+*Bu proje TÜBİTAK 4006 Bilim Şenliği kapsamında Ekin Özdemir, Nisanur Tangör, Ahmet Deniz Doğan tarafından geliştirilmiştir.*
