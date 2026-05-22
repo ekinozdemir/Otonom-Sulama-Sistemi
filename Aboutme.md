@@ -19,4 +19,4 @@ I thrive in the quiet focus of deep technical execution, complex problem-solving
 *   ✍️ **[Essays & Lyrics](./philosophy/writing):** Philosophical reflections, observations from street performances, and song draft lyrics.
 
 ---
-📫 **How to reach me:** [LinkedIn](https://www.linkedin.com/in/ekin-özdemir) | [Email](mailto:ozdemirekin2008@gmail.com)
+📫 **How to reach me:** [LinkedIn](https://www.linkedin.com/in/ekin-özdemir-a24031411/) | [Email](mailto:ozdemirekin2008@gmail.com)
