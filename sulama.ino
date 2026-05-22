@@ -1,7 +1,7 @@
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 
-// LCD adresini kontrol et (0x27 veya 0x3F)
+
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 const int nemSensorPin = A0;   
@@ -11,7 +11,7 @@ const int esikDegeri = 800;
 int sonDurum = -1; 
 
 void setup() {
-  Serial.begin(9600); // Seri iletişimi başlatır (Monitör için ŞART)
+  Serial.begin(9600); 
   pinMode(rolePin, OUTPUT);
   digitalWrite(rolePin, HIGH); 
   
@@ -26,11 +26,11 @@ void setup() {
 void loop() {
   int nemDegeri = analogRead(nemSensorPin);
   
-  // Seri Monitöre yazdır
+
   Serial.print("Toprak Nem Degeri: ");
   Serial.println(nemDegeri);
 
-  // --- SULAMA MANTIĞI ---
+
   if (nemDegeri > esikDegeri) { 
     digitalWrite(rolePin, LOW); 
     
@@ -56,15 +56,14 @@ void loop() {
     }
   }
 
-  // Eğer ekranda garip karakterler çıkarsa resetlemek için bir güvenlik önlemi
-  // Her 100 okumada bir LCD'yi tazeler
+
   static int sayac = 0;
   sayac++;
   if(sayac > 100){
-    lcd.init(); // LCD'yi gizlice yeniden başlatır, paraziti siler
+    lcd.init(); 
     lcd.backlight();
     sayac = 0;
-    sonDurum = -1; // Ekranın tekrar yazılmasını sağlar
+    sonDurum = -1; 
   }
 
   delay(300); 
